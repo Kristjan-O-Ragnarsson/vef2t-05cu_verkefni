@@ -27,6 +27,21 @@ def index():
 
 @app.route('/<word>')
 def divider(word):
-    return dictio[word.lower()]
+    return """
+            <!DOCTYPE html>
+                <html>
+                <head>
+                    <title>{}</title>
+                </head>
+                <body>
+                    <ul>
+                        <li><a href="/">home</a></li>
+                    </ul>
+                    <hr>
+                    <center><h1>{}</h1><center>
+
+                </body>
+                </html>
+            """.format(dictio[word.lower()], dictio[word.lower()])
 
 app.run(host='localhost', port=83)
