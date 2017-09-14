@@ -3,6 +3,7 @@
 % include('headder.tpl')
 % include('menu.tpl')
 	<center><h1>{{title}}</h1></center>
-<img src="/static/img/{{img}}">
+	<center><h2>{{content}}</h2></center>
+% include('front_news.tpl')
 % include('fotter.tpl')
 </html>
