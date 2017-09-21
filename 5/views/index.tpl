@@ -15,7 +15,7 @@
 			<label>Símanumer:</label><input type="tel" name="tele" pattern="[\+]{0,1}[\354]{0,1}\d{3}[\-]\d{4}" placeholder="112-4455" required><br>
 			<h2>Pizzastærð</h2>
 			Hvaða stærð má bjóða þér?<br>
-			<input type="radio" name="size" value="9"><label>9 tomma - 1000kr.</label><br>
+			<input type="radio" name="size" value="9" checked><label>9 tomma - 1000kr.</label><br>
 			<input type="radio" name="size" value="12"><label>12 tomma - 1500kr.</label><br>
 			<input type="radio" name="size" value="18"><label>18 tomma - 2000kr.</label><br>
 

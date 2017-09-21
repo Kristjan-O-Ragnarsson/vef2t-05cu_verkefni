@@ -13,14 +13,16 @@
 <body>
 	<h1>Kvittun</h1>
 	<article>
-		<h2>#25496</h2>
+		<h2>#{{nr}}</h2>
 		Nafn: {{name}}<br>
 		Heimilisfang: {{address}}<br>
 		Netfang: {{email}}<br>
 		Símanumer: {{tele}}<br>
 		Stærð: {{size}} tommur<br>
 		álegg: {{topping}}<br>
-		price: {{price}}<br>
+		Verð: {{price}}<br>
+		Vsk: {{vsk}}<br>
+
 	</article>
 </body>
 </html>
