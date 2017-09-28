@@ -54,10 +54,14 @@ def get_index():
 
 @app.post('/')
 def post_index():
-    info = {x: request.forms.get(x).strip().replace(' ', '') for x in keys}
-    print(username_list)
+    info = {x: request.forms.get(x).strip().replace(' ', '_') for x in keys}
+    print(info)
     if info['username'] in username_list:
         info['error'] = "Notenda nafn nú þegar í notkun"
+        info['villa'] = 1
+        return template('main.tpl', info)
+    elif len(info['username']) < 4:
+        info['error'] = "Notenda nafn of stutt"
         info['villa'] = 1
         return template('main.tpl', info)
     elif passtest(info['password']):
