@@ -1,0 +1,6 @@
+local storage: gagna geimsla fyrir alli glugga.
+SessionStorage: key value geimsla fyrir hvern tab.
+indexedDB: non relationan gagnagrunur í vafra.
+webSQL: relational gagnagrunur sem var stöðvaður 2011.
+cache: cache gögn fyrir hraðari vinslutíma(LOADING TIME).
+Cookies: kaka 4kb geymsla í vafra minni notað fyrir helling af skemtilegum hlutum (Super Cookie).

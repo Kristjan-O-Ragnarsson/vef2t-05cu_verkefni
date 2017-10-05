@@ -1,0 +1,1 @@
+<a href="/x/logout">Skrá sig út</a>
