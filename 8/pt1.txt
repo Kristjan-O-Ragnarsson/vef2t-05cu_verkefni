@@ -1,0 +1,3 @@
+session er server side geymsla
+cookies eru deymdar í vafranum en session i servernum
+session id er cookie sem geimir id fyrir sessionid
