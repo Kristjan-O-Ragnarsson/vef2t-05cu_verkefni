@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Info - Uppfletingsr vél fyrir íslensk bíl númer</title>
+    % include('style.html')
+    %include('meta.html')
+</head>
+<body>
+% include('back.html')
+    <h1>Upplýsingar</h1>
+    <article>
+        % for i in results:
+        <div>
+            <h2>Númer: {{i[0]}}</h2>
+            <h3>Tegund: {{i[1]}}</h3>
+            <h3>Verksmiðjunúmer: {{i[2]}}</h3>
+            <h3>Nýskráningardagur: {{i[3]}}</h3>
+            <h3>Þyngd: {{i[5]}}</h3>
+            <h3>Staða: {{i[7]}}</h3>
+            <h3>Mengun: {{i[4]}}</h3>
+            <h3>Næsta skoðun: {{i[6]}}</h3>
+        </div>
+        %end
+    </article>
+</body>
+</html>

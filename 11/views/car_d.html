@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>del</title>
+    % include('style.html')
+    %include('meta.html')
+</head>
+<body>
+% include('back.html')
+<article>
+        <form action="/{{action}}" method="post" accept-charset="utf-8">
+            <fieldset>
+                <legend><h2>Breyting á bifreiðaskrá</h2></legend>
+                <select name="car">
+                    % for i in data:
+                    <option value="{{i[0]}}">{{i[0]}}</option>
+                    % end
+                </select>
+                <input type="submit" value="Breita">
+            </fieldset>
+
+        </form>
+
+    </article>
+
+</body>
+</html>
