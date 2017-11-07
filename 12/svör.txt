@@ -1,0 +1,8 @@
+﻿1. Free hosting er frí vef geymsla
+2. shared hosting er þegar margir skipta vef server á milli sín
+3. virtual hosting er að það eru mörg lén teingd við þennan server eða resource pool
+4. dedicated hosting er þegar þú leigir heilan server en ekki part af honum
+5. collocated hosting þá velur þú specs og allt og þú þarft að sjá um upphald
+6. collocated hosting er hosting fyrir vef búð
+x.1 ip tölur að geyma ip tölur er bara góður vani og þú getur fundið út staðsetningu frá ip tölum, personu upplysingar þú getur grætt af þeim og tími eydur á síðu þú vilt vita hversu addicting síðan þín er
+x.2 seo serch engin optimazation til að sjást betur á google, gott meta data til að bot og crawlers viti hvað síðan þín er og góðir titlar til að manverur viti um hvað síðan er 
